@@ -1,0 +1,11 @@
+const person = { name: "Rahim", age: 25, city: "Dhaka" };
+console.log(person);
+console.log(person.name);
+console.log(person.age);
+person.country = "bangladesh";
+console.log(person.country);
+person.city = "khulna";
+console.log(person.city);
+console.log(person);
+delete person.age;
+console.log(person);
